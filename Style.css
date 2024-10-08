@@ -32,3 +32,31 @@ header nav ul li a {
     color: white;
     text-decoration: none;
 }
+/* Hero Section */
+#hero {
+    background: url('assets/images/hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#hero .btn {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
