@@ -130,3 +130,25 @@ header nav ul li a {
 }
 
 
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
